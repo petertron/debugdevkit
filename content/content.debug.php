@@ -39,7 +39,7 @@
 			}
 		}
 
-		public function build() {
+		public function build(array context = array()) {
 			$this->_view = (strlen(trim($_GET['debug'])) == 0 ? 'xml' : $_GET['debug']);
 
 			return parent::build();
