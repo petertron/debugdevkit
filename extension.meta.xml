@@ -17,6 +17,10 @@
 		</author>
 	</authors>
 	<releases>
+		<release version="1.3.5" date="2020-12-08" min="2.4" max="3.x.x">
+			- Update for PHP 7
+			- Mark compatibility with Symphony 3.0
+		</release>
 		<release version="1.3.4" date="2017-06-20" min="2.4" max="2.x.x">
 			- Mark compatibility with Symphony 2.7
 		</release>
